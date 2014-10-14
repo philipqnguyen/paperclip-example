@@ -46,7 +46,7 @@ Add `<%= image_tag @article.pic.url(:medium) %>` to the article's show page.
 
 Add `<%= f.file_field :pic %>` in your form and add `:html => { :multipart => true }` to the top of your form so that it looks like this:
 
-``` ruby
+``` erb
 <%= form_for(@article, :html => { :multipart => true }) do |f| %>
   <% if @article.errors.any? %>
     <div id="error_explanation">
