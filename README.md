@@ -118,5 +118,9 @@ Now it should work. I hope this helps!
 
 ## References used in this tutorial
 
-[Heroku](https://devcenter.heroku.com/articles/paperclip-s3)
-[Paperclip](https://github.com/thoughtbot/paperclip)
+- [Heroku](https://devcenter.heroku.com/articles/paperclip-s3)
+- [Paperclip](https://github.com/thoughtbot/paperclip)
+
+## License
+
+MIT
